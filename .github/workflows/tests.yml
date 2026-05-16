@@ -26,4 +26,11 @@ jobs:
 
     - name: Run Tests
       run: |
-        python -m pytest -v
+        python -m pytest
+
+    - name: Upload Test Report
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: pytest-html-report
+        path: reports/
