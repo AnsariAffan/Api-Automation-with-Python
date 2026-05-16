@@ -8,6 +8,7 @@ A professional, Page Object Model (POM) based API automation framework designed 
 - **Dynamic Data**: Integration with **Faker** for realistic, randomized test data.
 - **Auto-Cleanup**: Automatically removes `__pycache__` and `.pytest_cache` folders after every run to keep the project clean.
 - **Custom Markers**: Categorized tests using `@pytest.mark.smoke` and `@pytest.mark.regression`.
+- **CI/CD Integration**: Automatically runs tests on every push or pull request using **GitHub Actions**.
 
 ## 🛠 Tech Stack
 - **Python 3.x**
