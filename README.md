@@ -10,6 +10,7 @@ A professional, Page Object Model (POM) based API automation framework designed 
 - **Custom Markers**: Categorized tests using `@pytest.mark.smoke` and `@pytest.mark.regression`.
 - **CI/CD Integration**: Automatically runs tests on every push or pull request using **GitHub Actions**.
 
+
 ## 🛠 Tech Stack
 - **Python 3.x**
 - **Pytest**: Testing framework.
@@ -47,4 +48,4 @@ python -m pytest
 - **Regression Tests**: `python -m pytest -m regression`
 
 ## 🔗 Dummy API Used
-This project uses [FakeStoreAPI](https://fakestoreapi.com) for demonstration purposes.
+This project uses [JSONPlaceholder](https://jsonplaceholder.typicode.com) for demonstration purposes due to its high reliability and CI/CD compatibility.
